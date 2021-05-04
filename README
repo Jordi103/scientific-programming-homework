@@ -1,0 +1,25 @@
+TODOS LOS PROGRAMAS ESTÁN ESCRITOS DE LA FORMA SIGUIENTE: Prob(numero del ejercicio)(apartado del ejercicio).
+En el caso del Problema 2, tenemos una variación en el nombre que será explicada a continuación.
+
+Para compilar cada fichero.c hay que ejecutar el programa
+gcc -Wall fichero.c -o ejecutable -lm
+aunque la opción "-lm" no siempre es necesaria.
+
+
+PROBLEMA 1
+El programa Prob1.c interpola la función 1/(1+25x^2) en el intervalo (-1,1). Para ello, pide el número de puntos de soporte y de que tipo los queremos (equidistantes o de Chebyshev). Retorna un fichero "puntos.txt" que són 180 puntos equiespaciados del intervalo (-1,1) y sus imágenes separados por un espacio.
+
+PROBLEMA 2
+El programa está repartido en 3 partes. Prob2_posi.c, Prob2_nega.c y Prob2_semi.c; cada uno de ellos nos da el valor de la interpolación inversa pedido en el ejercicio dependiendo de los valores escojidos para interpolar.
+
+PROBLEMA 3
+El programa Prob3.c es un menú que te deja escojer entre método de los trapezios o método de Simpson y entonces te da el valor de la integral pedida en el ejercicio.
+
+PROBLEMA 4
+El programa Prob4.c pide el número de veces que quieres partir el intervalo definido en la integral y te da el valor de ella por el método de los trapecios.
+
+PROBLEMA 5
+El programa Prob5.c es muy simple, puesto que la parte importante era escrita (encontrar el número de subintervalos necesarios dada una precisión), simplemente nos da de resultado el valor de la integral del ejercicio por la fórmula Simpson.
+
+PROBLEMA 6 
+El programa Prob6.c calcula la integral indicada en la respuesta al ejercicio 6 mediante la regla de los trapecios y la muestra por pantalla.
